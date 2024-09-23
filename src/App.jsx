@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Model from './components/Model'
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Highlights />
       <Model />
+      <Analytics />
     </main>
   )
 }
